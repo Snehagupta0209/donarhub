@@ -29,7 +29,26 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-    ];
+  "terms", 
+   "dob",
+  "gender",
+  "phone",
+  "bloodgroup",
+  "weight",  "height",  "diabetic",
+  "illness",
+  "surgeries",
+  "medications",
+  "hepatitis",
+  "dizziness",
+  "state",
+  "city",
+  "area",
+  "pincode",  "medicalHistory",
+  "smokeAlcohol",
+  "allergies",
+  "substanceAbuse",
+  "healthConditions",
+  "consentToDonate",  "privacyPolicy",  "medicalConsent"   ];
 
     /**
      * The attributes that should be hidden for serialization.

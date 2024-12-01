@@ -5,19 +5,36 @@ import ApplicationLogo from "@/Components/ApplicationLogo.vue";
 <template>
     <div>
         <div class="p-6 lg:p-8 bg-white border-b border-gray-200">
-            <h1 class="mt-8 text-2xl font-medium text-gray-900">
-                Welcome to your Jetstream application!
+            <h1 class="text-2xl font-medium text-gray-900">
+                Welcome to Donar hub!
             </h1>
-
-            <p class="mt-6 text-gray-500 leading-relaxed">
-                Laravel Jetstream provides a beautiful, robust starting point
-                for your next Laravel application. Laravel is designed to help
-                you build your application using a development environment that
-                is simple, powerful, and enjoyable. We believe you should love
-                expressing your creativity through programming, so we have spent
-                time carefully crafting the Laravel ecosystem to be a breath of
-                fresh air. We hope you love it.
-            </p>
+            <div class="grid">
+                <table class="table-fixed mt-6 text-gray-500 leading-relaxed">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>Blood Group</th>
+                            <th>View Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                The Sliding Mr. Bones (Next Stop, Pottersville)
+                            </td>
+                            <td>Malcolm Lockyer</td>
+                            <td>1961</td>
+                            <td>
+                                <a href="#" class="text-blue-500 mr-2">View</a>
+                                <a href="#" class="text-red-500 ml-2"
+                                    >Request to donate</a
+                                >
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </template>
